@@ -29,7 +29,7 @@ useEffect(()=>{
         setNumber(currentContact.number)
     }
 
-},currentContact)
+},[currentContact])
 
 const handleSubmit =(e)=>{
     e.preventDefault();
